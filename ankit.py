@@ -1,5 +1,6 @@
-#num = 1000
-#print(num * 3)
-nu = "ankit "
-print (nu*10)
-print(len(nu))
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("The number is Even")
+else:
+    print("The number is Odd")
